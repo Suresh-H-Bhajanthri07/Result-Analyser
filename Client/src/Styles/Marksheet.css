@@ -1,0 +1,80 @@
+
+.m-header{
+    height: 100px;
+    width: 1451px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: bisque;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.exam-type{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.exam-type span {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.m-body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+    height: 80px;
+    margin-top: 10px;
+
+}
+
+.m-body input {
+    width: 287px;
+    background-color: azure;
+    height: 100%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.stu-details {
+    height: 63px;
+    width: 300px;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.stu-container {
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+.btn{
+    margin-left: 700px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 120px;
+    background-color: aqua;
+}

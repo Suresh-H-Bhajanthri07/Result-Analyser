@@ -1,0 +1,77 @@
+.class-details {
+    height: 60px;
+    width: 100%;
+    padding: 40px;
+    background-color: #ffff00;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.class-details span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.sub-mid {
+    height: 600px;
+    width: 96%;
+    background-color: #f5870a;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* overflow-x: auto; */
+}
+.sub-topsite {
+    width: 60%;
+    height: 50px;
+    background-color: #00e6c3;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    padding: 10px 20px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1);
+}
+
+.subject-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .subject-1,
+  .subject-2,
+  .subject-3,
+  .subject-4,
+  .subject-5,
+  .subject-6 {
+    height: 300px;
+    width: 200px;
+    background-color: #dee2ff;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    flex-shrink: 0; /* Prevent cards from shrinking when container is smaller */
+    scroll-snap-align: centre;
+}
+
+.subject-1:hover,
+.subject-2:hover,
+.subject-3:hover,
+.subject-4:hover,
+.subject-5:hover,
+.subject-6:hover {
+    transform: scale(1.3); /* Increase size on hover */
+}
